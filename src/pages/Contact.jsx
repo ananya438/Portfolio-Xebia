@@ -11,7 +11,7 @@ function Contact() {
 
         <div className="contact-item">
           <FaEnvelope />
-          <span>your@email.com</span>
+          <span>ananya.thakur@example.com</span>
         </div>
 
         <div className="contact-item">
@@ -20,11 +20,11 @@ function Contact() {
         </div>
 
         <div className="social">
-          <a href="https://www.linkedin.com/feed/" target="_blank" className="social-btn">
+          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="social-btn">
             <FaLinkedin /> LinkedIn
           </a>
 
-          <a href="https://github.com/" target="_blank" className="social-btn">
+          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="social-btn">
             <FaGithub /> GitHub
           </a>
         </div>

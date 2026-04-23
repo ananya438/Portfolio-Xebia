@@ -1,11 +1,13 @@
 import "./Home.css";
-import { FaChalkboardTeacher,
+import { 
+  FaChalkboardTeacher,
   FaBookOpen,
   FaLaptopCode,
   FaBrain,
   FaCogs,
-  FaTrophy } from "react-icons/fa";
-import profile from "../assets/images/raygun_profile.jpg";
+  FaTrophy 
+} from "react-icons/fa";
+import profile from "../assets/images/pic.png";
 
 function Home() {
   return (
@@ -15,19 +17,18 @@ function Home() {
       <div className="home-card">
         <img className="profile-img" src={profile} alt="Profile" />
 
-        <h1>Raygun Jose</h1>
-        <h3>Full Stack Developer & Technical Trainer</h3>
+        <h1>Ananya Thakur</h1>
+        <h3>Full Stack Developer & B.Tech Student</h3>
 
         <p className="tagline">
-          Building scalable web, mobile & real-time systems using React,
-          Flutter & .NET technologies.
+          Aspiring Fullstack Developer specializing in AI-integrated systems. Building modern, academic-focused platforms using React, Node.js, and Prisma.
         </p>
       </div>
 
       {/* EXPERIENCE SECTION */}
       <div className="experience-section">
 
-        <h2 className="section-title">Teaching & Training Experience</h2>
+        <h2 className="section-title">Development & Project Experience</h2>
 
         <div className="cards-grid">
 
@@ -36,20 +37,20 @@ function Home() {
               <FaChalkboardTeacher style={{ marginRight: "8px" }} />
               Role
             </h3>
-            <p>Full Stack Development Trainer (B.Tech students)</p>
+            <p>2nd-Year B.Tech Student at UPES & Lead Developer of Obsidian 404</p>
           </div>
 
           <div className="exp-card">
             <h3>
               <FaLaptopCode style={{ marginRight: "8px" }} />
-              Practical Training
+              Technical Skills
             </h3>
             <ul>
-              <li>RAG (Retrieval-Augmented Generation)</li>
-              <li>Containerization Concepts</li>
-              <li>React Native Project Structure</li>
-              <li>API Integration</li>
-              <li>Selenium Automation Basics</li>
+              <li>React, Node.js & Prisma</li>
+              <li>AI Component Integration</li>
+              <li>Java (Data Structures & Algorithms)</li>
+              <li>Modern Academic UI/UX Design</li>
+              <li>Version Control & Deployment (GitHub/Vercel)</li>
             </ul>
           </div>
 
@@ -60,8 +61,7 @@ function Home() {
             </h3>
             <br/>
             <p>
-              Recognized for delivering hands-on, practical training in Full Stack
-              Development, DevOps, and AI/ML for engineering students.
+              Achieved a perfect 10 SGPA while building platforms like PrepShelf for the student community and developing rapid crisis response systems for the GDG Solution Challenge.
             </p>
           </div>
 

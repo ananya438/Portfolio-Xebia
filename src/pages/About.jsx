@@ -10,40 +10,39 @@ function About() {
         <h2>About Me</h2>
 
         <p className="about-text">
-          I am a Full Stack Developer and Technical Trainer focused on building
-          end-to-end scalable systems and teaching practical software development.
+          I am a B.Tech student and Aspiring Fullstack Developer specializing in AI-integrated systems, passionate about building modern, intuitive applications and tackling algorithmic challenges.
         </p>
 
         <div className="about-grid">
 
           <div className="about-item">
             <FaCogs />
-            <span>Problem-driven engineering mindset</span>
+            <span>AI-integrated system development</span>
           </div>
 
           <div className="about-item">
             <FaLaptopCode />
-            <span>Strong real-world implementation focus</span>
+            <span>Modern academic UI design</span>
           </div>
 
           <div className="about-item">
             <FaChalkboardTeacher />
-            <span>Build + Teach approach</span>
+            <span>Consistent DSA problem solver</span>
           </div>
 
           <div className="about-item">
             <FaUserGraduate />
-            <span>Full stack system design experience</span>
+            <span>Team Lead & independent learner</span>
           </div>
 
         </div>
 
         <div className="about-tags">
+          <span>JavaScript</span>
           <span>React</span>
-          <span>Flutter</span>
-          <span>.NET</span>
-          <span>DevOps</span>
-          <span>AI/ML</span>
+          <span>Node.js</span>
+          <span>Prisma</span>
+          <span>Java</span>
         </div>
 
       </div>
